@@ -1,0 +1,102 @@
+/*Color Palette?
+main colors: 
+	teal: #7cbfb1
+	light blue: #b6d8d6;
+pop color: 
+	mint: #b4d7bf;
+neutral colors for body text & backgrounds: 
+	dark gray: 7e8988;
+	light gray: e5e5e5;
+*/
+
+body {
+	padding-top: 70px;
+	font-size: 16px;
+	font-family: "Jacques Francois";
+	color: #7e8988;
+	margin: 0, 5%;
+}
+
+.navbar-custom {
+	font-family: 'Quicksand';
+	color: #7e8988;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+/*About*/
+
+.headline {
+	text-align: center;
+	font-size: 20px;
+	color: #3fb0ac;
+}
+hr {
+	height: 10px;
+}
+.title {
+	font-size: 75px;
+	font-family: 'Quicksand';
+	color: #fae596;
+	text-align: center;
+	letter-spacing: 4px;
+}
+.second-title {
+	text-align: left;
+	font-family: 'Quicksand';
+	font-size: 35px;
+	color: #173e43;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+#selfie {
+	margin-top: 30px;
+	border-radius: 50%;
+	border: 3px solid #b6d8d6;
+	height: 325px;
+	width: 275px;
+}
+/*hire me button*/
+.button p {
+	margin-top: 10px;
+}
+.button {
+	text-align: center;
+	font-family: 'Quicksand';
+}
+
+.btn {
+	color: #173e43;
+	background-color: #fae596;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+.btn:hover {
+	background-color: #e3e3e3;
+	border-color: rgba(0,0,0,0.1);
+	color: #3fb0ac;
+}
+/*skills*/
+
+
+i {
+	color: #3fb0ac;
+}
+.skills {
+	text-align: center;
+}
+.skills p {
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-family: 'Quicksand';
+	color: #7e8988;
+}
